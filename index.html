@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Music App</h1>
+        <nav>
+            <a href="#Trending hits">Trending hits</a>
+            <a href="#Top Ten local Hit songs">Top Ten local Hit songs</a>
+            <a href="#Top Ten international hit songs">Top Ten international hit songs</a>
+            <a href="#Audio player">Audio player</a>
+            <a href="#Sign in form">Sign in form</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="Trending hits">
+            <h2>Trending Hits</h2>
+            <figure>
+                <img src="./download.jpeg" alt="Khaligraph Jones" title="Hip hop artist">
+                <figcaption>Khaligraph Jones</figcaption>
+            </figure>
+            <p>Be ready to blow your ears out with our top hits on our selected menu list.</p>
+            <p><a href="https://www.youtube.com/watch?v=NfRSCmHe1Hg&pp=ygUQa2hhbGlncmFwaCBqb25lcw%3D%3D" target="_blank" rel="noopener noreferrer">Music stream</a></p>
+            <p><a href="./Tiger-D-Khaligraph-Jones.mp3" download>Latest hit</a></p>
+        </section>
+        
+        <section id="Top Ten local Hit songs">
+            <h3>Top Ten Local Hit Songs</h3>
+            <ol>
+                <li>Baba Lao</li>
+                <li>Omollo</li>
+                <li>Kwame</li>
+                <li>Nyakabwogothi</li>
+            </ol>
+        </section>
+        
+        <section id="Top Ten international hit songs">
+            <h3>Top Ten International Hit Songs</h3>
+            <ul>
+                <li>Bang</li>
+                <li>Despacito</li>
+                <li>Good Luck</li>
+                <li>Lucky Birds</li>
+            </ul>
+        </section>
+        
+        <section id="Audio player">
+            <h3>Audio Player</h3>
+            <audio controls>
+                <source src="./Tiger-D-Khaligraph-Jones.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        
+        <section id="Sign in form">
+            <h3>Sign In Form</h3>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username">
+                    <br>
+                    <br>
+                <fieldset>
+                    <legend>Choose your favorite</legend>
+                        <label for="song-baba-lao">
+                            <input type="checkbox" name="song" id="song-baba-lao" value="baba lao"> Baba Lao
+                        </label>
+                        <label for="song-omollo">
+                            <input type="checkbox" name="song" id="song-omollo" value="omollo"> Omollo
+                        </label>
+                        <label for="song-kwame">
+                            <input type="checkbox" name="song" id="song-kwame" value="kwame"> Kwame
+                        </label>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <h4>Artist On Display</h4>
+        <table>
+            <tr>
+                    <th> Artist </th>
+                    <th> Genre</th>
+                    <th> Type</th>
+                </th>
+            </tr>
+             <tr>
+                    <td>lil</td>
+                    <td>Rnb</td>
+                    <td>local</td>
+             </tr>
+             <tr>
+                        <td>kis</td>
+                        <td>hip</td>
+                        <td>hope</td>
+                    </tr>    
+        </table>
+    </main>
+    <footer>
+        <p> 2024 Music App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
